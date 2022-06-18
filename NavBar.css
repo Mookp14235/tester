@@ -1,0 +1,42 @@
+.navbar 
+{
+    background: #ffc0cb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar_logo {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+  }
+  
+  .nav_item a{
+    text-decoration: none;
+    color: rgb(64, 152, 167);
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    padding: 6px 16px;
+    border-radius: 5px;
+    
+  }
+  
+  .nav_item a:hover {
+    background: rgb(0, 212, 212);
+    color: palevioletred;
+  }
+
+  .nav_item2{
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: row;
+  }
